@@ -1,5 +1,5 @@
 
-const rootDir = '/';
+const rootDir = '/igeiatech.github.io/';
 
 var datesMM = function() {
     return new Date().getTime();
