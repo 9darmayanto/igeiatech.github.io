@@ -1,0 +1,147 @@
+
+.form-login{
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    top:0;
+    left: 0;
+    background: lightblue;
+    justify-content: center;
+    align-items: center;
+    z-index: 200;
+}
+
+.form-login form{
+    width: 350px;
+    padding: 20px;
+    background-color: white;
+}
+
+.form-login form input{
+    display: block;
+    width: 100%;
+}
+
+
+body{
+    background: lightblue;
+}
+
+
+.transition2{
+    opacity: 1;
+    animation: blow 1s ease-in-out;
+}
+
+@keyframes blow {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+.transition::before{
+    content: "";
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+    background: lightblue;
+    opacity: 0;
+    animation: shadowBlur 1s ease-in-out;
+}
+
+input[type="text"]{
+    display: block;
+    padding: 8px 5px;
+    margin: 3px 0 10px 0;
+    max-width: calc(100% - 15px);
+}
+
+input[type="password"]{
+    display: block;
+    padding: 8px 5px;
+    margin: 3px 0 10px 0;
+    max-width: calc(100% - 15px);
+}
+
+input[type="number"]{
+    display: block;
+    padding: 8px 5px;
+    margin: 3px 0 10px 0;
+    max-width: calc(100% - 15px);
+}
+
+.btn{
+    padding: 8px 10px;
+    outline: none;
+    border: none;
+    background: #ddd;
+    border-radius: 3px;
+}
+
+.btn:hover{
+    color: white;
+    background: #999999;
+}
+
+@keyframes shadowBlur{
+    0%{
+        opacity: 1;
+        width: 100vw;
+        z-index: 1000;
+    }
+    50%{
+        opacity: .6;
+        width: 100vw;
+        z-index: 1000;
+    }
+    90%{
+        opacity: 0.1;
+        width: 100vw;
+        z-index: 1000;
+    }
+    99%{
+      opacity: 0.01;
+      width: 100vw;
+      z-index: 1000;
+    }
+    100%{
+        opacity: 0;
+        width: 0;
+    }
+}
+
+    .body-error-message{
+        position: fixed;
+        display: block;
+        bottom: calc(100vh - 50px);
+        padding: 10px;
+        right: 10px;
+        background: #333333;
+        color: white;
+        z-index: 10000;
+        animation: error 4s ease-in-out;
+    }
+    @keyframes error{
+        0%{
+            bottom: 10px;
+            opacity: 0;
+        }
+        50%{
+            bottom: calc(100vh - 50px);
+            opacity: 1;
+        }
+        90%{
+            bottom: calc(100vh - 50px);
+            opacity: 0;
+        }
+    }

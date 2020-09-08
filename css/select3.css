@@ -1,0 +1,67 @@
+/* area select 3 */
+
+.modal-select3{
+  position: fixed;
+  display: flex;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+}
+
+.select3-form{
+  position: relative;
+  display: inline-block;
+}
+
+.select3-form > span{
+  display: block;
+  padding: 10px;
+  background-color: #dddddd;
+}
+
+.select3-show{
+  position: relative;
+  display: inline-block;
+  min-width: 600px;
+  max-width: 600px;
+}
+
+.select3-show span{
+  display: block;
+  padding: 10px;
+  background-color: lightblue;
+  border-bottom: 1px solid white;
+  cursor: pointer;
+  z-index: 9000;
+}
+
+
+.close-select3{
+  position: absolute;
+  top: 0;
+  right: -0;
+  display: inline-block !important;
+}
+
+.select3{
+  padding: 3px;
+  min-width: 200px;
+  position: relative;
+}
+
+.modal-data-show{
+  position: absolute;
+  display: inline;
+  width: 350px;
+  height: auto;
+  font-size: 10px;
+  z-index: 999;
+  background-color: white;
+  padding: 10px;
+  top: calc(50vh - 100px);
+  left: 20px;
+}

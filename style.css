@@ -1,0 +1,180 @@
+*{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	min-height: 100vh;
+}
+
+/* display inline block */
+.nav li, .nav a{
+	display: inline-block;
+}
+
+.fix-top{
+	position: fixed;
+	width: calc(100% - 40px);
+	top: 0;
+	left: 0;
+	padding: 5px 20px;
+	z-index: 999;
+}
+
+/* ------------------- --------------------- --------------------- ---------- */
+
+.nav{
+	list-style: none;
+}
+
+
+.nav a{
+	text-decoration: none;
+	padding: 3px 10px;
+	margin: 0 10px;
+}
+
+.pad-2{
+	padding: 10px 20px;
+}
+
+
+/* grid template 2 column */
+
+.navbar{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+/* ------------------ ----------------------- ------------------------------- */
+
+/* text-left */
+
+.text-left{
+	text-align: left;
+}
+
+/* text-right */
+.text-right{
+	text-align: right ;
+}
+
+/* text-center */
+.text-center{
+	text-align: center ;
+}
+
+/* --------------------------------- - ------------------------------------ --- ----------------- */
+
+.header{
+	padding: 0 40px;
+	padding-bottom: 20px;
+}
+
+.header h1,
+.header h3
+{
+	padding: 0;
+	margin: 0;
+}
+
+.header h1{
+	font-size:6vw;
+}
+
+.header h3{
+	font-size:2.5vw;
+}
+
+.header{
+	display: grid;
+	grid-template-columns: 30% 70%;
+}
+
+.btn-start{
+	padding: 8px 20px;
+	border-radius: 20px;
+	outline: none;
+	border: none;
+	background-color: #999999;
+	color: white;
+	font-weight: bold;
+}
+
+.mt-5{
+	margin-top: 50px !important;
+}
+
+.mt-4{
+	margin-top: 40px !important;
+}
+
+.mt-3{
+	margin-top: 30px !important;
+}
+
+.mt-2{
+	margin-top: 20px !important;
+}
+
+.mt-1{
+	margin-top: 10px !important;
+}
+
+.text-dark a,
+.text-dark{
+	color: #777777;
+}
+
+.img-responsive{
+	width: 100%;
+}
+
+.flex-center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.flex-center-end{
+	display: flex;
+	align-items: center;
+	justify-content:flex-end;
+}
+
+.text-spacing-10{
+	letter-spacing: 0.5px;
+	line-height: 30px;
+}
+
+button{
+	cursor: pointer;
+}
+
+.bg-cicle{
+	background-image: url('asset/cicle.png');
+	background-size: auto 150vh;
+	background-repeat: no-repeat;
+	background-position-x: -50vh;
+	background-position-y: -25vh;
+}
+
+.dark-blue{
+	background: darkblue !important;
+	color: white !important;
+	padding: 8px 20px !important;
+}
+
+.max-300{
+	max-width:40vw;
+}
+
+h1{
+	font-size: 30px;
+}
+
+p{
+	letter-spacing: 0.5px;
+	line-height: 30px;
+}

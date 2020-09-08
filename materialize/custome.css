@@ -1,0 +1,129 @@
+html, div {
+   scroll-behavior: smooth;
+ }
+ .brand-logo{
+   text-transform: capitalize;
+ }
+
+ .menu-icon div:nth-child(1){
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .size-40{
+   font-size: 40px !important;
+ }
+
+ .menu-icon{
+   display: grid;
+   grid-template-columns: 50px calc(100% - 50px);
+ }
+
+ .waves-block{
+   display: block !important;
+   height: auto !important;
+   padding: 0 !important;
+ }
+
+ .waves-block .card-content{
+   padding: 5px !important;
+ }
+
+ .waves-block .card-content p,
+ .waves-block .card-content small
+ {
+   display: block;
+   text-align: left;
+   padding: 0 !important;
+   margin: 0 !important;
+ }
+
+ .waves-block .card-content small{
+   margin-top: -10px !important;
+ }
+
+ .galery-images {
+   width: 100%;
+   height: 250px;
+   background-image: var(--bg-image);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: 50% 50%;
+ }
+
+
+.galery-top{
+   position: relative;
+}
+
+.favorite-galery{
+   position: absolute;
+   bottom: 50px;
+   right: 30px;
+}
+
+.favorite-galery > .material-icons{
+   font-size: 35px;
+}
+
+.action-card{
+   color: black;
+}
+
+p{
+   padding: 3px 0 !important;
+   margin: 0 !important;
+}
+
+
+.form-group label{
+   text-transform: uppercase;
+ }
+
+ .promotion{
+   display: flex;
+   min-height: 400px;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .pd-10{
+   padding: 10px !important;
+ }
+
+.nav-content{
+  height: auto !important;
+}
+
+.nav-content .input-field,
+.nav-content .material-icons{
+  margin-top: -5px;
+}
+
+.nav-content input{
+	width: calc(100% - 100px)!important;;
+	height: auto !important;
+	padding: 10px 50px!important;;
+}
+
+.nav-content .input-field{
+	height: auto !important;
+}
+
+.input-field input[type="search"]{
+  border-bottom: none !important;
+	border: 1px solid white !important;
+}
+
+.grid-bar{
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+}
+
+.carousel-item,
+.card,
+.card-content
+{
+	border-radius: 15px !important;;
+}

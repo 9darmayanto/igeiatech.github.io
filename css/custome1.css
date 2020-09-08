@@ -1,0 +1,147 @@
+.pointer{
+  cursor: pointer;
+}
+
+.navigation{
+  display: inline-block;
+  list-style: none;
+}
+
+.navigation li{
+  display: inline;
+  margin-left: 20px;
+}
+
+.navigation li a{
+  text-decoration: none;
+  color: black;
+}
+
+.navigation li a:hover{
+  color: red;
+}
+
+.padding-5{
+  padding-top: 20px;
+  background: #DA251C;
+}
+
+.img-menu{
+  width: 80px;
+}
+
+
+.footer{
+  background-color: #DA251C;
+  padding: 15px 5px;
+}
+
+.cicle-tab::before{
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  margin-top: -10px;
+  margin-left: -10px;
+  border-radius: 50%;
+  background-color: #DA251C;
+  z-index: -1;
+  justify-content: center;
+}
+
+.cicle-tab{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.card-top::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  margin-top: -5px;
+  background: red;
+  z-index: -1;
+}
+
+.red-part{
+  margin-top: 50px;
+}
+
+.red-part::before{
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 28px;
+  margin-top: -28px;
+  background-image: url('asset/redpart.png');
+  background-size: cover;
+  z-index: -1;
+  justify-content: center;
+}
+
+#set-tahun-transaksi{
+  display: inline-block;
+}
+
+.ilustrasi-1{
+  width: 300px;
+  min-width: 300px;
+  max-width:300px;
+  margin-bottom: -60px;
+}
+
+.ilustrasi-2{
+  width: 100px;
+  min-width: 100px;
+  max-width: 100px;
+  height: 100px;
+}
+
+/* .btn-custome::before{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  margin-top: -10px;
+  margin-left: -8px;
+  background: red;
+  z-index: -1;
+} */
+.active2{
+  font-family: 'Roboto';font-size: 22px;
+  outline: none;
+  border: none;
+  background: #F73A16;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: .7s;
+}
+.btn-custome:hover{
+  background: white;
+  color: black;
+}
+
+.btn-custome{
+  position: relative;
+  padding: 5px 8px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background: rgb(218,37,28);
+  background: linear-gradient(90deg, rgba(218,37,28,1) 0%, rgba(222,113,113,1) 100%);
+  color: black;
+  color: white;
+  border: 0.5px solid #dddddd;
+}
