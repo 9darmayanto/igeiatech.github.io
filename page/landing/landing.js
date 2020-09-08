@@ -2,7 +2,7 @@ function(){
 
 	$('html, body').animate({
         scrollTop: $(`body`).offset().top
-    }, 500);
+ }, 100);
 
 
 	$("[scroll]").click(function(event) {
@@ -11,7 +11,7 @@ function(){
 
 		$('html, body').animate({
 	        scrollTop: $(`#${href}`).offset().top - 130
-	    }, 500);
+	    }, 100);
 
 	});
 

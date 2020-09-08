@@ -20,6 +20,7 @@ root.verify = function(a){
 const dataCss = [
   'font/css/all',
   'css/customeb',
+  'materialize/customea',
   'bootstrap3/css/bootstrap.min',
 ];
 
@@ -56,6 +57,25 @@ root.get('/download', function(){
         ], function(){
           loadJs(dataJs, function(){
             rootCall('page/download/download', arg);
+          })
+        })
+    })
+})
+
+// product
+
+
+
+root.get('/biochemical', function(){
+  var arg = arguments;
+    loadCss(dataCss, function(){
+      loadPage([
+          'page/nav/nav',
+          'page/biochemical/download',
+          'page/nav/foo'
+        ], function(){
+          loadJs(dataJs, function(){
+            rootCall('page/biochemical/download', arg);
           })
         })
     })

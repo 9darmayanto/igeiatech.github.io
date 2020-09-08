@@ -1,3 +1,4 @@
+//const rootDir = '/';
 
 const rootDir = '/igeiatech.github.io/';
 
@@ -55,21 +56,7 @@ const loadJs = function(a = [], func){
         }
     }
   }
-
   loadScript();
-
-  // a.forEach((item) => {
-  //   loadScript(`${baseUrl+rootDir+item}.js?v=`+times);
-  // })
-
-  // setTimeout(() => {
-  //   jQuery(document).ready(async function($) {
-  //     await func();
-  //     last.forEach((item) => {
-  //       loadScript(`${baseUrl+rootDir+item}.js?v=`+times);
-  //     })
-  //   });
-  // }, 100)
 };
 
 
