@@ -14,8 +14,8 @@ function callMaster(a, func) {
 
 callMaster('jquery', function () {
   callMaster('axios', function () {
-    const rootDir = '/';
-    //const rootDir = '/igeiatech.github.io/';
+    // const rootDir = '/';
+    const rootDir = '/igeiatech.github.io/';
 
     var datesMM = function () {
       return new Date().getTime();
